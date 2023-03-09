@@ -1,5 +1,4 @@
 import mongoose, { Document, Schema } from 'mongoose';
-import { isInterfaceDeclaration } from 'typescript';
 
 export interface IBook {
     title: String;
